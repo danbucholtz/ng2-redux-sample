@@ -1,0 +1,22 @@
+.cube{
+    margin-top: 20px;
+	padding: 10px;
+	height: 213px;
+	width: 213px;
+}
+
+.basic-cube{
+	background-color: #4cb8e4;
+}
+
+.basic-cube:hover{
+	background-color: #43A4CA;
+}
+
+.advanced-cube{
+    background-color: #ff0000;
+}
+
+.advanced-cube:hover{
+    background-color: #ff3333;
+}

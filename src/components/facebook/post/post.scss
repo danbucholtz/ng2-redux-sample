@@ -1,0 +1,76 @@
+.card{
+    margin: 20px;
+    background-color: #FFF;
+    border: 1px solid #DFE0E4;
+}
+
+.post-padding{
+    padding: 15px;
+}
+
+$postImageWidth: 50px;
+
+.post-avatar-container{
+    width: $postImageWidth;
+    height: $postImageWidth;
+}
+
+.post-avatar{
+    width: $postImageWidth;
+    max-width: $postImageWidth;
+}
+
+.poster-name{
+    display: inline-block;
+    margin-left: 10px;
+    color: blue;
+}
+
+.post-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.grey-icon{
+    color: #AFB4BD;
+}
+
+.icon-text{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.icon-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.post-likes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.post-comment-section{
+    background-color: #F6F7F8;
+    border-top: 1px solid #E1E2E3;
+}
+
+$commentImageWidth: 30px;
+
+.comment-avatar-container{
+    width: $commentImageWidth;
+    height: $commentImageWidth;
+}
+
+.comment-avatar{
+    width: $commentImageWidth;
+    max-width: $commentImageWidth;
+}
+
+.comment-input{
+    display: inline;
+    width: 50%;
+    margin-left: 10px;
+}
